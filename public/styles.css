@@ -1,0 +1,122 @@
+:root {
+
+    --primary-magenta-color: hsl(300, 43%, 22%);
+    --primary-pink-color: hsl(333, 80%, 67%);
+
+    --neutral-dark-magenta-color: hsl(303, 10%, 53%);
+    --neutral-light-magenta-color: hsl(300, 24%, 96%);
+
+    --neutral-white-color: hsl(0, 0%, 100%);
+    
+}
+
+html {
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.page_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro > h1{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-magenta-color)
+}
+
+.intro > p{
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin-bottom: 2.2rem;
+    font-weight: 700;
+    color: var(--neutral-dark-magenta-color);
+}
+
+.review {
+    padding: 1rem;
+    background: var(--neutral-light-magenta-color);
+    margin-bottom: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+}
+
+.rating > li {
+    margin: 0rem 0.25rem;
+}
+
+.review > .tagline {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--primary-magenta-color);
+}
+
+.reviews {
+    margin-bottom: 3.5rem;
+}
+
+.testimony_card {
+    background: var(--primary-magenta-color);
+    color: var(--neutral-white-color);
+    padding: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+
+.testimony_card > header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.testimony_card > header > img {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 1.8rem;
+    border-radius: 50%;
+}
+
+.testimony_card > header > div > p,label {
+    font-size: .8rem;
+    font-weight: 700;
+    margin: 0rem;
+    line-height: 1rem;
+}
+
+
+.testimony_card > header > div > label {
+    font-weight: 500;
+    color: var(--primary-pink-color);
+}
+
+.testimony_card > section > p {
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
